@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="src/style.css">
+    <title>Project</title>
+</head>
+<body>
+    <nav class="navbar">
+        <button class="burger-btn">
+            <span></span><span></span><span></span>
+        </button>
+        <a href="" class="navbar__logo"><i class="ri-sparkling-line"></i></a>
+        <div class="navbar__menu">
+            
+
+            <a href="index.html" class="navbar__link">Home</a>
+            <a href="video.html" class="navbar__link">Video</a>
+            <a href="music.html" class="navbar__link">Music</a>
+            <a href="books.html" class="navbar__link">Book</a>
+            
+            <div class="work">
+                <a href="#" class="navbar__link">Work &bigtriangledown;</a>
+                <div class="work__submenu">
+                    <a href="form.html">Form</a>
+                    <a href="math.html">Math</a>
+                    <a href="api.html">API</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="navbar__actions">
+            <button class="btn">Entry</button>
+        </div>
+
+    </nav>
+    <section class="music-section">
+        <div class="music-item">
+            <div class="music-left">
+                <img src="src/public/album-cover.jpg" alt="Album Cover" class="album-cover">
+                <h3>Track 1: Calm Music</h3>
+            </div>
+            <div class="music-right">
+                <audio controls>
+                    <source src="src/public/music1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+
+        <div class="music-item">
+            <div class="music-left">
+                <img src="src/public/album-cover2.jpg" alt="Album Cover" class="album-cover">
+                <h3>Track 2: Energetic Beat</h3>
+            </div>
+            <div class="music-right">
+                <audio controls>
+                    <source src="src/public/music2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+
+        <div class="music-item">
+            <div class="music-left">
+                <img src="src/public/album-cover3.jpg" alt="Album Cover" class="album-cover">
+                <h3>Track 3: Chill Vibes</h3>
+            </div>
+            <div class="music-right">
+                <audio controls>
+                    <source src="src/public/music3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="hero__socials">
+        <a href=""><img src="/src/public/chat-message-cat-svgrepo-com.svg" width = 40 height = 40></a>
+        <a href=""><img src="/src/public/facebook-cat-tail-svgrepo-com.svg" width = 40 height = 40></a>
+        <a href=""><img src="/src/public/youtube-cat-tail-svgrepo-com.svg" width = 40 height = 40></a>
+        <a href=""><img src="/src/public/instagram-cat-tail-svgrepo-com.svg" width = 40 height = 40></a>
+    </div>
+    <script src = "./js/script.js"></script>
+</body>
+</html>
