@@ -504,7 +504,7 @@ fieldset {
 }
 
 button {
-    background-color: #4CAF50;      /* Цвет фона кнопок */
+    background-color: #1f2937;      /* Цвет фона кнопок */
     color: white;                   /* Цвет текста кнопок */
     padding: 10px;
     border: none;
@@ -515,11 +515,11 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;      /* Цвет кнопок при наведении */
+    background-color: #1f2937;      /* Цвет кнопок при наведении */
 }
 
 p {
-    text-align: center;             /* Центрирование результата */
+                /* Центрирование результата */
     font-size: 20px;
     font-weight: bold;
 }
