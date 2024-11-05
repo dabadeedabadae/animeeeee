@@ -475,54 +475,7 @@ audio {
 .custom-form .btn:hover {
     background-color: #4b5563;
 }
-/* Контейнер для всего калькулятора */
-.math {
-    display: flex;
-    justify-content: center; /* Центрирование по горизонтали */
-    align-items: center;     /* Центрирование по вертикали */
-    min-height: 100vh;       /* Высота контейнера, чтобы занять весь экран */
-}
 
-form {
-    background-color: #f9f9f9; /* Цвет фона */
-    padding: 20px;
-    border-radius: 10px;       /* Скругление углов */
-    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Тень */
-    max-width: 400px;          /* Максимальная ширина формы */
-    width: 100%;               /* Автоматическое изменение ширины */
-}
-
-fieldset {
-    border: none;               /* Убираем стандартную рамку у fieldset */
-    margin-bottom: 20px;
-}
-
-.counters, .butcont {
-    display: flex;
-    justify-content: space-between; /* Размещаем элементы на одной линии с равными отступами */
-    gap: 10px;                      /* Отступ между элементами */
-}
-
-button {
-    background-color: #1f2937;      /* Цвет фона кнопок */
-    color: white;                   /* Цвет текста кнопок */
-    padding: 10px;
-    border: none;
-    border-radius: 5px;             /* Скругление кнопок */
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #1f2937;      /* Цвет кнопок при наведении */
-}
-
-p {
-                /* Центрирование результата */
-    font-size: 20px;
-    font-weight: bold;
-}
 
 
 
