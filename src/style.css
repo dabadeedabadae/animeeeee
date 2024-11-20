@@ -83,24 +83,15 @@ img{
 .burger-btn span:nth-child(3){
     transform: translateY(10px)
 }
-
-
-
-
-
-
-
 .navbar__logo{
     display: flex;
     align-items: center;
     font-weight: 500;
     gap: 10px;
 }
-
 .navbar__logo i{
     font-size: 30px;
 }
-
 .navbar__menu{
     display: flex; 
     align-items: center; 
